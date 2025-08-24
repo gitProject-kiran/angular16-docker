@@ -23,7 +23,6 @@ COPY --from=builder /app/dist/angular16-docker /usr/share/nginx/html
 
 # Optional: Custom Nginx config
 # COPY nginx.conf /etc/nginx/nginx.conf
-COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 # Expose port 80
 EXPOSE 80
