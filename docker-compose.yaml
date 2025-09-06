@@ -1,5 +1,5 @@
 services:
   web:
-    image: angular16-app
+    build: .
     ports:
       - 80:80
